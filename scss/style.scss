@@ -9,7 +9,6 @@
 
 h1 {
     font-size: 40px;
-    padding: 30px;
     font-weight: 500;
     span {
         font-weight: 700;
@@ -126,4 +125,18 @@ body {
     border-radius: 8px;
     margin: 10px;
     
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    
+    * { 
+        margin: 8px;
+    }
+    &__logo {
+        width: 64px;
+        border-radius: 8px;
+    }
 }
